@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(249 249 249);
+}
+
+.lista li{
+    list-style: none;
+}
+
+.cancel{
+    border: none;
+    background-color: transparent;
+    transition: 200ms ease-in-out color;
+    color: #000;
+}
+
+.cancel:hover{
+    color: red;
+}
